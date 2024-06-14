@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管樂介紹</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/%E9%A6%96%E9%A0%81/%E9%A6%96%E9%A0%81.html#" class="logo-container">
+            <img src="logo.png" alt="管樂世界 Logo">
+            <span class="logo-text">管樂天地</span>
+        </a>
+        <h1>管樂介紹</h1>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">銅管</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/%E9%8A%85%E7%AE%A1/tp/tp.html">小號</a>
+                    <a href="http://127.0.0.1:5500/%E9%8A%85%E7%AE%A1/tb/tb.html">長號</a>
+                    <a href="http://127.0.0.1:5500/%E9%8A%85%E7%AE%A1/hron/horn.html">法國號</a>
+                    <a href="http://127.0.0.1:5500/%E9%8A%85%E7%AE%A1/eup/eup.html">上低音號</a>
+                    <a href="http://127.0.0.1:5500/%E9%8A%85%E7%AE%A1/tuba/tuba.html">低音號</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">木管</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/%E6%9C%A8%E7%AE%A1/cl/cl.html">單簧管</a>
+                    <a href="http://127.0.0.1:5500/%E6%9C%A8%E7%AE%A1/oboe/oboe.html">雙簧管</a>
+                    <a href="http://127.0.0.1:5500/%E6%9C%A8%E7%AE%A1/flute/flute.html">長笛</a>
+                    <a href="http://127.0.0.1:5500/%E6%9C%A8%E7%AE%A1/sax/sax.html">薩克斯風</a>
+                  </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/%E6%89%93%E6%93%8A/per.html">打擊</a></li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="per">
+            <h2>打擊樂器</h2>
+            <p>打擊樂器在管樂團中扮演著重要角色，增添了節奏和聲音效果。常見的打擊樂器包括：</p>
+            <p>定音鼓：可調音高，提供強烈而明確的節奏。</p>
+            <p>小軍鼓：以其尖銳的聲音和多變的節奏廣泛應用。</p>
+            <p>大鼓：低沉有力的聲音，為樂團提供穩定的節奏基礎。</p>
+            <p>鈸：用於製造銳利和突出的聲音效果，增加音樂的層次感。</p>
+            <p>三角鐵：清脆的高音，經常用於細膩的節奏點綴。</p>
+            <p>木魚：獨特的木質敲擊聲，常用於增添東方音樂色彩。</p>
+            <p>這些樂器的多樣性和靈活性使其能夠在各種音樂風格中發揮作用，增強音樂的表現力和動感。</p>
+        </section>
+        <section id="gallery">
+            <h2>圖片集</h2>
+            <div class="carousel">
+                <div><img src="per1.jpg" alt="per1"></div>
+                <div><img src="per2.jpg" alt="per2"></div>
+                <div><img src="per3.jpg" alt="per3"></div>
+            </div>
+        </section>
+        <section id="videos">
+            <h2>視頻</h2>
+            <div class="video-carousel">
+                <div class="video-container">
+                    <iframe width="2537" height="1157" src="https://www.youtube.com/embed/-K8uVwiPhrk" title="打楽器4重奏　紅蓮の弓矢" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                    <div class="video-container">
+                        <iframe width="2537" height="1157" src="https://www.youtube.com/embed/QYb2-nfQDAU" title="水面に射す紅き影の波紋" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- 添加更多視頻 -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>本網站僅供靜宜大學動態網頁設計課程，繳交作業用，不為其他商業用途 © 2024 管樂介紹</p>
+        <div class="footer-links">
+            <a href="http://127.0.0.1:5500/%E9%A6%96%E9%A0%81/%E9%A6%96%E9%A0%81.html#oboe">返回首頁</a>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+            });
+            $('.video-carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 5000,
+                dots: true,
+            });
+        });
+    </script>
+</body>
+</html>
+
